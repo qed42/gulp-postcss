@@ -15,6 +15,7 @@ npm install
 provide the needed browser support.
   - With extension `.css` we can use SCSS/PostCSS syntax or it's features.
   - Partial files support like SASS.
+  - Nested css support like SASS.
   - Included RTL feature which convert LTR CSS to RTL for directional css.
   - BEM classes feature available.
   - PX to REM converstion available.
@@ -66,7 +67,7 @@ provide the needed browser support.
   ```
   npm run build
   ```
-  - File watcher
+  - Continuous file watch
   ```
   npm run watch
   ```
