@@ -9,9 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name": "Kiran Kadam",
-    "email": "kiran.kadam911@gmail.com",
-    "url": "https://kiran-kadam911.github.io/kirank/"
+    "name": "QED42",
+    "url": "https://www.qed42.com/"
   },
   "license": "ISC",
   "devDependencies": {
