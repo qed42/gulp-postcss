@@ -1,0 +1,21 @@
+/*
+  Generic base elements.
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, arial, sans-serif;
+}
+
+.region.block-region {
+  padding: 15px;
+}
+
+.featured {
+  padding: 40px 20px;
+  background-color: indianred;
+}

@@ -1,0 +1,11 @@
+/*
+  Custom CSS properties.
+  These are "compiled" by postcss/postcss-custom-properties for IE11 compatibility.
+*/
+:root {
+  /* Layout helpers */
+  --mainBlue: #34aad9;
+  --secondaryBlue: #5bbbe0;
+  --mainRed: #fb4d41;
+  --mainGreen: #4cd762;
+}

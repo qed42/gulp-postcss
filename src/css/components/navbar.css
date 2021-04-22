@@ -1,0 +1,35 @@
+/*
+  Navbar.
+ */
+
+.navbar {
+  padding: 0.6rem;
+  color: white;
+  background-color: var(--mainBlue);
+
+  &__title {
+    text-align: center;
+  }
+
+  &__button {
+    float: left;
+    margin-right: 1rem;
+    padding: 0.6rem;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    &:hover {
+      background-color: var(--secondaryBlue);
+    }
+  }
+
+  &:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}

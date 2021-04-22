@@ -1,0 +1,13 @@
+/*
+  Footer.
+ */
+
+.footer--top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+  .region {
+    padding: 5px;
+  }
+}

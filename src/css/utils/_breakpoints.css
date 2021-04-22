@@ -1,0 +1,6 @@
+/* PostCSS Custom Media */
+@custom-media --xs (max-width: 575px);
+@custom-media --sm (max-width: 767px);
+@custom-media --md (max-width: 991px);
+@custom-media --lg (max-width: 1023px);
+@custom-media --xl (min-width: 1190px);
