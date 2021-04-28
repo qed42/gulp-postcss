@@ -1,0 +1,8 @@
+.DS_STORE
+*.patch
+node_modules
+dist
+*.css.map
+
+.idea/
+.vscode/

@@ -1,0 +1,7 @@
+/* Placeholders serve the same basic purpose as mixins, 
+   but without arguments and with different syntax. 
+*/
+
+%section-title {
+  font-size: 30px;
+}

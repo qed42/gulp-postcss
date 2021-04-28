@@ -8,6 +8,7 @@
   background-color: var(--mainBlue);
 
   &__title {
+    @extend %section-title;
     text-align: center;
   }
 

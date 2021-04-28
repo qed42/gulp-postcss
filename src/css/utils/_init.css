@@ -3,3 +3,6 @@
 
 /* Import breakpoints */
 @import 'breakpoints';
+
+/* Import placeholders */
+@import 'placeholders';

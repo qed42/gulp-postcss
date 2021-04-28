@@ -18,6 +18,11 @@ provide the needed browser support.
   - Nested css support like SASS.
   - Included RTL feature which convert LTR CSS to RTL for directional css.
   - BEM classes feature available.
+  - Define your Placeholder and @extend it.
+    - `src/css/utils/_placeholders.css`
+    - How to use see: `src/css/components/navbar.css`
+    - More info: https://github.com/csstools/postcss-extend-rule
+    - Placeholders vs Mixins: https://medium.com/@linker21/scss-placeholders-vs-mixins-fe79b9dbb6d5
   - PX to REM converstion available.
     - Default base for conversion is `1rem = 16px`.
     - Default output unit for `<value>px` is `rem`.
@@ -73,5 +78,5 @@ provide the needed browser support.
   ```
   OR
   ```
-  gulp watch
+  gulp watch:css
   ```

@@ -3,6 +3,7 @@ var path = require('path'),
   using = require('gulp-using'),
   babel = require('gulp-babel'),
   postcss = require('gulp-postcss'),
+  postcssExtendRule = require('postcss-extend-rule'),
   sourcemaps = require('gulp-sourcemaps'),
   postcssCustomProperties = require('postcss-custom-properties'),
   nested = require('postcss-nested'),
@@ -77,6 +78,7 @@ gulp.task('build:css', function () {
     }),
     postcssCustomMedia(),
     cssImport(),
+    postcssExtendRule(),
     postcssCustomProperties({
       preserve: false
     }),
